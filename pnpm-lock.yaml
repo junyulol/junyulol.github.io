@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@rspress/plugin-medium-zoom':
+        specifier: ^1.45.3
+        version: 1.45.3(@rspress/runtime@1.45.1)
       rspress:
         specifier: ^1.40.2
         version: 1.45.1(webpack@5.101.0)
@@ -378,6 +381,12 @@ packages:
     engines: {node: '>=14.17.6'}
     peerDependencies:
       '@rspress/runtime': ^1.45.1
+
+  '@rspress/plugin-medium-zoom@1.45.3':
+    resolution: {integrity: sha512-McbUFfKBT53wb8/EAP7eUyYREntmGhQEqUwh+zdr8DX8l5LkmEgs/LCD7sbOHYfj6MB2m9tL7E/jVN4yS4zksw==}
+    engines: {node: '>=14.17.6'}
+    peerDependencies:
+      '@rspress/runtime': ^1.45.3
 
   '@rspress/plugin-sitemap@2.0.0-beta.23':
     resolution: {integrity: sha512-2mn8QTigaKCVjfRmI0o9uaJZ7fhDnOJ8cOhuX4cwMgRBHbT5aVcYJcCfvZ612S79l/55ONOSOoG8D1b36qcdlQ==}
@@ -2133,6 +2142,11 @@ snapshots:
       '@rspress/shared': 1.45.1
 
   '@rspress/plugin-medium-zoom@1.45.1(@rspress/runtime@1.45.1)':
+    dependencies:
+      '@rspress/runtime': 1.45.1
+      medium-zoom: 1.1.0
+
+  '@rspress/plugin-medium-zoom@1.45.3(@rspress/runtime@1.45.1)':
     dependencies:
       '@rspress/runtime': 1.45.1
       medium-zoom: 1.1.0
