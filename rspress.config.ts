@@ -32,6 +32,23 @@ export default defineConfig({
     },
   ],
   themeConfig: {
+    nav: [
+      {
+        text: 'HOME',
+        link: '/',
+        activeMatch: '^(?:/|/index.html|/zh-CN/index.html)$',
+      },
+      {
+        text: 'BLOG',
+        link: '/blog/',
+        activeMatch: '^/(?:zh-CN/)?blog/',
+      },
+      {
+        text: 'CONTACT US',
+        link: '/contact/',
+        activeMatch: '^/(?:zh-CN/)?contact/',
+      },
+    ],
     // locales: [
     //   {
     //     lang: 'en',

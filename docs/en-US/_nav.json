@@ -1,0 +1,17 @@
+[
+  {
+    "text": "Home",
+    "link": "/",
+    "activeMatch": "/"
+  },
+  {
+    "text": "BLOG",
+    "link": "/blog/",
+    "activeMatch": "/blog/"
+  },
+  {
+    "text": "CONTACT US",
+    "link": "/contact/",
+    "activeMatch": "/contact/"
+  }
+]

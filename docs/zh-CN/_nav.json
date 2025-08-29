@@ -1,0 +1,17 @@
+[
+  {
+    "text": "首页",
+    "link": "/",
+    "activeMatch": "/"
+  },
+  {
+    "text": "博客",
+    "link": "/blog/",
+    "activeMatch": "/blog/"
+  },
+  {
+    "text": "联系我们",
+    "link": "/contact/",
+    "activeMatch": "/contact/"
+  }
+]
