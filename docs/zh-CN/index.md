@@ -7,7 +7,7 @@ hero:
   tagline: 
   actions:
     - theme: brand
-      text: 　联系我们
+      text: 联系我们
       link: /contact/
   image:
     src: /junyu-image.png

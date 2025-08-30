@@ -1,4 +1,4 @@
-# Contact Us
+# CONTACT US
 
 - Email: [gowiden@gmail.com](mailto:gowiden@gmail.com)
 - Telegram: [@gowiden](https://t.me/gowiden)

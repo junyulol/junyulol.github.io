@@ -15,9 +15,6 @@ export default defineConfig({
     light: '/junyu-photoroom.png',
     dark: '/junyu-photoroom.png',
   },
-  mediumZoom: {
-    selector: '.rspress-doc img',
-  },
   lang: 'en-US',
   locales: [
     {
@@ -25,31 +22,40 @@ export default defineConfig({
       // 导航栏切换语言的标签
       label: 'English',
       title: 'Junyu',
-      description: 'Static Site Generator',
+      description: 'Junyu Art Tea Gallery',
     },
     {
       lang: 'zh-CN',
       label: '简体中文',
       title: '峻宇茶画苑',
-      description: '静态网站生成器',
+      description: '峻宇茶画苑',
     },
   ],
   themeConfig: {
     nav: [
       {
-        text: 'HOME',
+        text: '🛖 HOME',
         link: '/',
         activeMatch: '^(?:/|/index.html|/zh-CN/index.html)$',
+        position: 'left',
       },
       {
-        text: 'BLOG',
+        text: '🍵 TEA',
+        link: '/tea/',
+        activeMatch: '^/(?:zh-CN/)?tea/',
+        position: 'left',
+      },
+      {
+        text: '🗞️ BLOG',
         link: '/blog/',
         activeMatch: '^/(?:zh-CN/)?blog/',
+        position: 'left',
       },
       {
-        text: 'CONTACT US',
+        text: '📮 CONTACT US',
         link: '/contact/',
         activeMatch: '^/(?:zh-CN/)?contact/',
+        position: 'left',
       },
     ],
     // locales: [

@@ -1,1 +1,3 @@
 # Ripe pu-erh tea (熟茶)
+
+Junyu #Yiwu Ancient Tree Puerh Ripe Tea offers a soft, rich texture with a clear, chestnut-red soup. Smooth and delicate, it blends caramel, woody, and fungal aromas with a sweet, warm, rice-soup-like consistency. Sweet yet balanced, it delivers lasting sweetness, a cooling throat feel, and lingering fragrance. Made from select ecological ancient tree leaves, it boasts a deep red, bright, thick, and sweet profile, comforting the stomach, dispelling dampness, and supporting endocrine health. This #Puerh tea captures the ancient tea mountains‘ essence through its aroma, smoothness, and vibrant charm~

@@ -8,8 +8,8 @@
     "preview": "rspress preview"
   },
   "dependencies": {
-    "@rspress/plugin-medium-zoom": "^1.45.3",
-    "rspress": "^1.40.2"
+    "rspress": "^1.40.2",
+    "swiper": "^11.2.10"
   },
   "devDependencies": {
     "@rsbuild/plugin-sass": "^1.3.5",
