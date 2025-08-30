@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@rspress/plugin-medium-zoom':
+        specifier: ^1.45.3
+        version: 1.45.3(@rspress/runtime@1.45.1)
       rspress:
         specifier: ^1.40.2
         version: 1.45.1(webpack@5.101.0)
@@ -375,6 +378,18 @@ packages:
   '@rspress/plugin-last-updated@1.45.1':
     resolution: {integrity: sha512-BG2ulT2NE+bm8d61xXnWM9r3BKKzUFFIqymxWyuI2efH82HlfTfo4udpOHo1G+0vlttdVZUUlqsdjRgsDxupiQ==}
     engines: {node: '>=14.17.6'}
+
+  '@rspress/plugin-medium-zoom@1.45.1':
+    resolution: {integrity: sha512-4OCAjj1F6hmbuT/KPUAz8NZ+NbyIIjlN0JMBAQ++RP38slRfrJ54gwz8jWbGrF7xlEYi/3kJduzOWlppmddrqw==}
+    engines: {node: '>=14.17.6'}
+    peerDependencies:
+      '@rspress/runtime': ^1.45.1
+
+  '@rspress/plugin-medium-zoom@1.45.3':
+    resolution: {integrity: sha512-McbUFfKBT53wb8/EAP7eUyYREntmGhQEqUwh+zdr8DX8l5LkmEgs/LCD7sbOHYfj6MB2m9tL7E/jVN4yS4zksw==}
+    engines: {node: '>=14.17.6'}
+    peerDependencies:
+      '@rspress/runtime': ^1.45.3
 
   '@rspress/plugin-sitemap@2.0.0-beta.23':
     resolution: {integrity: sha512-2mn8QTigaKCVjfRmI0o9uaJZ7fhDnOJ8cOhuX4cwMgRBHbT5aVcYJcCfvZ612S79l/55ONOSOoG8D1b36qcdlQ==}
@@ -1083,6 +1098,9 @@ packages:
 
   mdast-util-to-string@3.2.0:
     resolution: {integrity: sha512-V4Zn/ncyN1QNSqSBxTrMOLpjr+IKdHl2v3KVLoWmDPscP4r9GcCi71gjgvUV1SFSKh92AjAG4peFuBl2/YgCJg==}
+
+  medium-zoom@1.1.0:
+    resolution: {integrity: sha512-ewyDsp7k4InCUp3jRmwHBRFGyjBimKps/AJLjRSox+2q/2H4p/PNpQf+pwONWlJiOudkBXtbdmVbFjqyybfTmQ==}
 
   memfs@4.36.0:
     resolution: {integrity: sha512-mfBfzGUdoEw5AZwG8E965ej3BbvW2F9LxEWj4uLxF6BEh1dO2N9eS3AGu9S6vfenuQYrVjsbUOOZK7y3vz4vyQ==}
@@ -2051,6 +2069,7 @@ snapshots:
       '@rspress/plugin-auto-nav-sidebar': 1.45.1
       '@rspress/plugin-container-syntax': 1.45.1
       '@rspress/plugin-last-updated': 1.45.1
+      '@rspress/plugin-medium-zoom': 1.45.1(@rspress/runtime@1.45.1)
       '@rspress/runtime': 1.45.1
       '@rspress/shared': 1.45.1
       '@rspress/theme-default': 1.45.1
@@ -2128,6 +2147,16 @@ snapshots:
   '@rspress/plugin-last-updated@1.45.1':
     dependencies:
       '@rspress/shared': 1.45.1
+
+  '@rspress/plugin-medium-zoom@1.45.1(@rspress/runtime@1.45.1)':
+    dependencies:
+      '@rspress/runtime': 1.45.1
+      medium-zoom: 1.1.0
+
+  '@rspress/plugin-medium-zoom@1.45.3(@rspress/runtime@1.45.1)':
+    dependencies:
+      '@rspress/runtime': 1.45.1
+      medium-zoom: 1.1.0
 
   '@rspress/plugin-sitemap@2.0.0-beta.23(@rspress/core@1.45.1(webpack@5.101.0))':
     dependencies:
@@ -2979,6 +3008,8 @@ snapshots:
   mdast-util-to-string@3.2.0:
     dependencies:
       '@types/mdast': 3.0.15
+
+  medium-zoom@1.1.0: {}
 
   memfs@4.36.0:
     dependencies:

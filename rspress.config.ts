@@ -15,6 +15,9 @@ export default defineConfig({
     light: '/junyu-photoroom.png',
     dark: '/junyu-photoroom.png',
   },
+  mediumZoom: {
+    selector: '.rspress-doc img',
+  },
   lang: 'en-US',
   locales: [
     {
