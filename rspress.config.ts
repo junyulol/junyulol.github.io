@@ -74,11 +74,6 @@ export default defineConfig({
         mode: 'link',
         content: 'https://x.com/gowiden',
       },
-      {
-        icon: 'github',
-        mode: 'link',
-        content: 'https://github.com/junyulol',
-      },
     ],
     footer: {
       message: 'lang' === 'zh-CN' ? '© 2025 峻宇茶画苑版权所有。' : '© 2025 JUNYU ART Inc.',
