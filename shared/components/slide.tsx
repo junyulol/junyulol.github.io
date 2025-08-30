@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 export default function Slide(props: { images: string[], width: number }) {
   return (
     <Swiper
-      style={{ width: props.width, borderRadius: '16px' }}
+      style={{ maxWidth: props.width, borderRadius: '16px' }}
       modules={[Navigation, Pagination, Autoplay]}
       navigation
       pagination={{ clickable: true }}
