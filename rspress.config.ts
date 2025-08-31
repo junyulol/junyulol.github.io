@@ -9,6 +9,10 @@ const siteUrl = 'https://junyulol.github.io';
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
   title: '峻宇茶画苑 (junyu.lol)',
+  description: '中国云南古树普洱茶，茶与艺术的融合，茶与生活的融合。',
+  head: [
+    [ 'meta', { name: 'keyword', content: '中国, 云南, 宜武, 古树茶, 普洱茶, 艺术, 生活, China, Yunnan, Yiwu, Old tree, Pu-erh, Puerh, tea' } ],
+  ],
   icon: '/junyu-photoroom.png',
   logoText: 'Junyu',
   logo: {
@@ -71,6 +75,8 @@ export default defineConfig({
     //     outlineTitle: '大纲',
     //   },
     // ],
+    enableContentAnimation: true,
+    enableAppearanceAnimation: true,
     socialLinks: [
       {
         icon: 'x',
