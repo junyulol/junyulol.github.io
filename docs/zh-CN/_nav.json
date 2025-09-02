@@ -5,13 +5,13 @@
     "activeMatch": "/"
   },
   {
-    "text": "博客",
-    "link": "/blog/",
-    "activeMatch": "/blog/"
+    "text": "最新动态",
+    "link": "/news/",
+    "activeMatch": "/news/"
   },
   {
-    "text": "联系我们",
-    "link": "/contact/",
-    "activeMatch": "/contact/"
+    "text": "关于我们",
+    "link": "/about/",
+    "activeMatch": "/about/"
   }
 ]

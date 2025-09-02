@@ -52,35 +52,37 @@ export default defineConfig({
         activeMatch: '^/(?:zh-CN/)?tea/',
         position: 'left',
       },
-      // {
-      //   text: '🎨 ART',
-      //   link: '/art/',
-      //   activeMatch: '^/(?:zh-CN/)?art/',
-      //   position: 'left',
-      // },
       {
-        text: '🗞️ BLOG',
-        link: '/blog/',
-        activeMatch: '^/(?:zh-CN/)?blog/',
+        text: '🎨 ART',
+        link: '/art/',
+        activeMatch: '^/(?:zh-CN/)?art/',
         position: 'left',
       },
       {
-        text: '📮 CONTACT US',
-        link: '/contact/',
-        activeMatch: '^/(?:zh-CN/)?contact/',
+        text: '🗞️ NEWS',
+        link: '/news/',
+        activeMatch: '^/(?:zh-CN/)?news/',
+        position: 'left',
+      },
+      {
+        text: '📮 ABOUT',
+        link: '/about/',
+        activeMatch: '^/(?:zh-CN/)?about/',
         position: 'left',
       },
     ],
-    // locales: [
-    //   {
-    //     lang: 'en',
-    //     outlineTitle: 'ON THIS Page',
-    //   },
-    //   {
-    //     lang: 'zh',
-    //     outlineTitle: '大纲',
-    //   },
-    // ],
+    locales: [
+      {
+        lang: 'en-US',
+        label: 'English',
+        outlineTitle: 'Table of Contents',
+      },
+      {
+        lang: 'zh-CN',
+        label: '简体中文',
+        outlineTitle: '大纲',
+      },
+    ],
     enableContentAnimation: true,
     enableAppearanceAnimation: true,
     socialLinks: [
@@ -91,7 +93,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: 'lang' === 'zh-CN' ? '© 2025 峻宇茶画苑版权所有。' : '© 2025 JUNYU ART Inc.',
+      message: 'lang' === 'zh-CN' ? '© 2025 峻宇茶画苑版权所有。' : '© 2025 JUNYU ART TEA Inc.',
     },
   },
   plugins: [

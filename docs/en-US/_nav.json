@@ -5,13 +5,13 @@
     "activeMatch": "/"
   },
   {
-    "text": "BLOG",
-    "link": "/blog/",
-    "activeMatch": "/blog/"
+    "text": "NEWS",
+    "link": "/news/",
+    "activeMatch": "/news/"
   },
   {
-    "text": "CONTACT US",
-    "link": "/contact/",
-    "activeMatch": "/contact/"
+    "text": "ABOUT",
+    "link": "/about/",
+    "activeMatch": "/about/"
   }
 ]
