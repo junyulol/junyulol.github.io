@@ -14,7 +14,7 @@ export default defineConfig({
     [ 'meta', { name: 'keyword', content: '中国, 云南, 易武, 古树茶, 普洱茶, 艺术, 生活, China, Yunnan, Yiwu, Ancient tree, Old tree, Pu-erh, Puerh, tea' } ],
   ],
   icon: '/junyu-photoroom.png',
-  logoText: 'Junyu',
+  logoText: 'Jùnyǔ',
   logo: {
     light: '/junyu-photoroom.png',
     dark: '/junyu-photoroom.png',

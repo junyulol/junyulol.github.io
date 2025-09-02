@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: 联系我们
-      link: /contact/
+      link: /about/
   image:
     src: /assets/art/y/WX20250902-094513@2x.png
     alt: Logo
