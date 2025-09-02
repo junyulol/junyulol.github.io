@@ -93,7 +93,7 @@ export default defineConfig({
       },
     ],
     footer: {
-      message: 'lang' === 'zh-CN' ? '© 2025 峻宇茶画苑版权所有。' : '© 2025 JUNYU ART TEA Inc.',
+      message: 'lang' === 'zh-CN' ? '© 2025 峻宇茶画苑版权所有' : '© 2025 Jùnyǔ Art Tea Gallery',
     },
   },
   plugins: [
