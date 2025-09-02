@@ -3,14 +3,14 @@ pageType: home
 
 hero:
   name: 峻宇茶画苑
-  text: Junyu Art Tea Gallery
+  text: Jùnyǔ Art Tea Gallery
   tagline: 
   actions:
     - theme: brand
       text: 联系我们
       link: /contact/
   image:
-    src: /junyu-image.png
+    src: /assets/art/y/WX20250902-094513@2x.png
     alt: Logo
 features:
   - title: 白茶(White tea)

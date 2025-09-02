@@ -2,7 +2,7 @@
 pageType: home
 
 hero:
-  name: Junyu Art Tea Gallery
+  name: Jùnyǔ Art Tea Gallery
   text: 峻宇茶画苑
   tagline: 
   actions:
@@ -10,7 +10,7 @@ hero:
       text: CONTACT US
       link: /contact/
   image:
-    src: http://localhost:3000/assets/art/y/WX20250902-094513@2x.png
+    src: /assets/art/y/WX20250902-094513@2x.png
     alt: Logo
 features:
   - title: White tea (白茶)
