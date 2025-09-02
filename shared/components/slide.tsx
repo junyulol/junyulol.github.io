@@ -5,7 +5,7 @@ import 'swiper/css/autoplay';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-export default function Slide(props: { images: string[], width: number }) {
+export default function Slide(props: { images: string[], width?: number }) {
   return (
     <Swiper
       style={{ maxWidth: props.width, borderRadius: '16px' }}

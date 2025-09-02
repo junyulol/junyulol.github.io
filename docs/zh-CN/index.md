@@ -14,27 +14,19 @@ hero:
     alt: Logo
 features:
   - title: 白茶(White tea)
-    details: 关于白茶的描述
+    details: 丝滑的质地带来清新的甜味和悠长的回味。通过自然日晒工艺制作，保留了茶叶中的关键酶和强效抗氧化剂，保留了茶的丰富营养。
     icon: /assets/white-tea/IMG_5354.jpeg
     link: /zh-CN/tea/white-tea
   - title: 生茶 (Raw tea)
-    details: 关于生茶的描述
+    details: 这是一款来自云南深山古树的生普茶。
     icon: /assets/raw-tea/IMG_6019.jpeg
     link: /zh-CN/tea/raw-tea
   - title: 熟茶 (Ripe pu-erh tea)
-    details: 关于熟茶的描述
-    icon: /assets/ripe-pu-erh-tea/SelfieCity_1112181342_org.jpg
+    details: 古树熟普茶带来柔和丰富的口感，茶汤清澈呈栗红色。顺滑细腻，融合了焦糖、木质和菌菇香气，具有甜美、温暖、类似米汤般的口感。
+    icon: /assets/ripe-pu-erh-tea/SelfieCity_1112191320_org.jpg
     link: /zh-CN/tea/ripe-pu-erh-tea
-  - title: 龙珠 (Dragon ball)
-    details: 关于龙珠的描述
-    icon: /assets/dragon-ball/SelfieCity_1112190549_org.jpg
-    link: /zh-CN/tea/dragon-ball
-  - title: 元字饼 (Yuan)
-    details: 关于元字饼的描述
-    icon: /assets/yuan/IMG_0734.jpeg
-    link: /zh-CN/tea/yuan
-  - title: 易字饼 (Yi)
-    details: 关于易字饼的描述
-    icon: /assets/yi/IMG_5806.jpeg
-    link: /zh-CN/tea/yi
+  - title: 龙珠茶 (Dragon Pearl Tea)
+    details: 龙珠茶令人有力、悦志！颜悦康健，通灵体质，只需每天一泡灵性叶子的指引！
+    icon: /assets/dragon-pearl/SelfieCity_1112190901_org.jpg
+    link: /zh-CN/tea/dragon-pearl
 ---

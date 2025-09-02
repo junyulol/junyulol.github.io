@@ -1,6 +1,6 @@
 # CONTACT US
 
-- Email: [gowiden@gmail.com](mailto:gowiden@gmail.com)
+- Email: [tea@proteanorigin.com](mailto:tea@proteanorigin.com)
 - Telegram: [@gowiden](https://t.me/gowiden)
 - Twitter(X): [@gowiden](https://x.com/gowiden)
 
