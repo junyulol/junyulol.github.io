@@ -21,10 +21,10 @@ features:
     details: 这是一款来自云南深山古树的生普茶。
     icon: /assets/raw-tea/IMG_6019.jpeg
     link: /zh-CN/tea/raw-tea
-  - title: 熟茶 (Ripe pu-erh tea)
+  - title: 熟茶 (Ripe puerh tea)
     details: 古树熟普茶带来柔和丰富的口感，茶汤清澈呈栗红色。顺滑细腻，融合了焦糖、木质和菌菇香气，具有甜美、温暖、类似米汤般的口感。
-    icon: /assets/ripe-pu-erh-tea/SelfieCity_1112191320_org.jpg
-    link: /zh-CN/tea/ripe-pu-erh-tea
+    icon: /assets/ripe-puerh-tea/SelfieCity_1112191320_org.jpg
+    link: /zh-CN/tea/ripe-puerh-tea
   - title: 龙珠茶 (Dragon Pearl Tea)
     details: 龙珠茶令人有力、悦志！颜悦康健，通灵体质，只需每天一泡灵性叶子的指引！
     icon: /assets/dragon-pearl/SelfieCity_1112190901_org.jpg

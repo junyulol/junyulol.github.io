@@ -21,10 +21,10 @@ features:
     details: This is a raw Puerh tea from ancient trees deep in the mountains.
     icon: /assets/raw-tea/IMG_6019.jpeg
     link: /tea/raw-tea
-  - title: Ripe pu-erh tea (熟茶)
+  - title: Ripe puerh tea (熟茶)
     details: rich texture with a clear, chestnut-red soup. Smooth and delicate, it blends caramel, woody, and fungal aromas with a sweet, warm, rice-soup-like consistency.
-    icon: /assets/ripe-pu-erh-tea/SelfieCity_1112191320_org.jpg
-    link: /tea/ripe-pu-erh-tea
+    icon: /assets/ripe-puerh-tea/SelfieCity_1112191320_org.jpg
+    link: /tea/ripe-puerh-tea
   - title: Dragon Pearl Tea (龙珠)
     details: Dragon Pearl Ancient Tree Puerh raw Tea, where whispers of distant mountains and clear streams unfold in every sip
     icon: /assets/dragon-pearl/SelfieCity_1112190901_org.jpg
