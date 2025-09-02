@@ -58,12 +58,12 @@ export default defineConfig({
         activeMatch: '^/(?:zh-CN/)?art/',
         position: 'left',
       },
-      {
-        text: '🗞️ NEWS',
-        link: '/news/',
-        activeMatch: '^/(?:zh-CN/)?news/',
-        position: 'left',
-      },
+      // {
+      //   text: '🗞️ NEWS',
+      //   link: '/news/',
+      //   activeMatch: '^/(?:zh-CN/)?news/',
+      //   position: 'left',
+      // },
       {
         text: '📮 ABOUT',
         link: '/about/',
