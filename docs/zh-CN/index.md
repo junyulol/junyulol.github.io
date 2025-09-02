@@ -10,7 +10,7 @@ hero:
       text: 联系我们
       link: /about/
   image:
-    src: /assets/art/y/WX20250902-094513@2x.png
+    src: /junyu-image.png
     alt: Logo
 features:
   - title: 白茶(White tea)
