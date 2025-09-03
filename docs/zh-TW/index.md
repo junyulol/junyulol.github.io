@@ -1,0 +1,32 @@
+---
+pageType: home
+
+hero:
+  name: 峻宇茶畫苑
+  text: Jùnyǔ Art Tea Gallery
+  tagline: 
+  actions:
+    - theme: brand
+      text: 聯繫我們
+      link: /about/
+  image:
+    src: /junyu-image.png
+    alt: Logo
+features:
+  - title: 白茶(White tea)
+    details: 絲滑的質地帶來清新的甜味和悠長的回味。通過自然日曬工藝製作，保留了茶葉中的關鍵酶和強效抗氧化劑，保留了茶的豐富營養。
+    icon: /assets/white-tea/IMG_5354.jpeg
+    link: /zh-TW/tea/white-tea
+  - title: 生茶 (Raw tea)
+    details: 這是一款來自雲南深山古樹的生普茶。
+    icon: /assets/raw-tea/IMG_6019.jpeg
+    link: /zh-TW/tea/raw-tea
+  - title: 熟茶 (Ripe puerh tea)
+    details: 古樹熟普茶帶來柔和豐富的口感，茶湯清澈呈栗紅色。順滑細膩，融合了焦糖、木質和菌菇香氣，具有甜美、溫暖、類似米湯般的口感。
+    icon: /assets/ripe-puerh-tea/SelfieCity_1112191320_org.jpg
+    link: /zh-TW/tea/ripe-puerh-tea
+  - title: 龍珠茶 (Dragon Pearl Tea)
+    details: 龍珠茶令人有力、悅誌！顏悅康健，通靈體質，隻需每天一泡靈性葉子的指引！
+    icon: /assets/dragon-pearl/SelfieCity_1112190901_org.jpg
+    link: /zh-TW/tea/dragon-pearl
+---
