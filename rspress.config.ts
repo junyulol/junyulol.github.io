@@ -1,10 +1,11 @@
 import * as path from 'node:path';
 import { pluginSass } from '@rsbuild/plugin-sass';
 // import { pluginSitemap } from '@rspress/plugin-sitemap';
+import sitemap from "rspress-plugin-sitemap";
 import { pluginGoogleAnalytics } from 'rsbuild-plugin-google-analytics';
 import { defineConfig } from 'rspress/config';
 
-const siteUrl = 'https://junyulol.github.io';
+const siteUrl = 'https://www.junyu.lol';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
@@ -111,6 +112,11 @@ export default defineConfig({
     // pluginSitemap({
     //   siteUrl,
     // }),
+    sitemap({ 
+      domain: siteUrl,
+      defaultChangeFreq: "weekly",
+      defaultPriority: "0.5",
+     }),
   ],
   builderConfig: {
     plugins: [
