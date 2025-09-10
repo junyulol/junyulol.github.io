@@ -13,6 +13,10 @@ hero:
     src: /junyu-image.png
     alt: Logo
 features:
+  - title: 定製禮盒繫列
+    details: 探索我們精心製作的優質茶禮盒繫列，滿足各種預算需求。完美適用：公司及客戶答謝，員工及節日禮物，和個人驚喜。
+    icon: /assets/tea/tea-gift/IMG_5394.jpeg
+    link: /zh-TW/tea/tea-gift
   - title: 白茶(White tea)
     details: 絲滑的質地帶來清新的甜味和悠長的回味。通過自然日曬工藝製作，保留了茶葉中的關鍵酶和強效抗氧化劑，保留了茶的豐富營養。
     icon: /assets/white-tea/IMG_5354.jpeg

@@ -13,6 +13,10 @@ hero:
     src: /junyu-image.png
     alt: Logo
 features:
+  - title: Tea Gift (定制礼盒系列)
+    details: Discover our premium, elegantly crafted tea gift box series, designed to suit any budget. Perfect for Corporate & client appreciation, Employee & holiday gifts, and Personal surprises.
+    icon: /assets/tea/tea-gift/IMG_5394.jpeg
+    link: /tea/tea-gift
   - title: White tea (白茶)
     details: Its silky texture delivers refreshing sweetness and a lingering aftertaste. Crafted through natural sun-drying, it preserves vital enzymes and potent antioxidants, retaining the tea‘s rich nutrients.
     icon: /assets/white-tea/IMG_5354.jpeg
