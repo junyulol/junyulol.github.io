@@ -5,8 +5,8 @@ import { isExternalUrl } from '@rspress/shared';
 // import { renderHtmlOrText } from '../../logic/utils';
 import styles from './HomeFeature.module.scss';
 
-const getGridClass = (feature: Feature): string => {
-  const { span } = feature;
+const getGridClass = (span: number): string => {
+  // const { span } = feature;
   switch (span) {
     case 2:
       return styles.grid2;
@@ -14,6 +14,7 @@ const getGridClass = (feature: Feature): string => {
       return styles.grid3;
     case 4:
       return styles.grid4;
+    case 5:
     case 6:
       return styles.grid6;
     case undefined:
@@ -46,7 +47,7 @@ export function HomeFeature({
         return (
           <div
             key={title}
-            className={`${getGridClass(feature)} rounded hover:var(--rp-c-brand)`}
+            className={`${getGridClass(features.length)} rounded hover:var(--rp-c-brand)`}
           >
             <div className="h-full p-2">
               <article
