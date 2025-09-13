@@ -9,6 +9,7 @@ const siteUrl = 'https://www.junyu.lol';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
+  base: '/junyu.lol/',
   title: '峻宇茶画苑 (junyu.lol)',
   description: '中国云南古树普洱茶，茶与艺术的融合，茶与生活的融合。',
   head: [

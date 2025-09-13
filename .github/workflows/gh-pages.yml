@@ -26,6 +26,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          # 文档目录，如果是 react 模板需要修改为 docs-dist
-          publish_dir: ./doc_build
+          external_repository: junyulol/junyu.lol
           publish_branch: main
+          publish_dir: ./doc_build
